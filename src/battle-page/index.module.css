@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../images/df4e8ba28f912bf9cdf9fa0dfc196411.png") no-repeat center;
+    background-size: cover;
+
+}
+
+.list {
+    padding-top: 5%;
+}
+
+.pokemon {
+    width: 40%;
+    height: 400px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    /* border: 2px solid darkblue;
+    border-radius: 15px; */
+    background-color: transparent;
+    color: orange;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+}
+
+.div {
+    height: 154px;
+}
+
+.image {
+    text-align: center;
+}
+
+.pokemon img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    color: orange
+}
+
+/* h3 {
+    color: orange
+} */
+
+button {
+    background: orangered;
+    color: snow;
+    padding: 3%;
+    width: 25%;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid orange;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 1px solid orange;
+    color: orange;
+
+}
+
+
+.playAgain {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.playAgain button {
+    background-color: green;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.playAgain button:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+
+}
+
+.message {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.battleImage {
+    -webkit-animation: blink 0.5s;
+    -webkit-animation-iteration-count: 3;
+    -moz-animation: blink 0.5s;
+    -moz-animation-iteration-count: 3;
+    -o-animation: blink 0.5s;
+    -o-animation-iteration-count: 3;
+}
+
+.images {
+    text-align: right;
+}

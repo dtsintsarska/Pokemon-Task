@@ -1,0 +1,95 @@
+.pokemon {
+    width: 360px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    background-color: darkorange;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.image {
+    text-align: center;
+}
+
+.pokemon img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    color: orange
+}
+
+h3 {
+    color: darkblue;
+}
+
+
+.buttons {
+    text-align: center;
+
+}
+
+.info {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5a7c8a;
+}
+
+.info div:nth-child(1) {
+    display: inline-block;
+    width: 329px;
+    text-align: left;
+}
+
+.info div:nth-child(2) {
+    display: inline-block;
+    width: 56px;
+    text-align: center;
+    font-size: 20px;
+    background: #3498b9;
+    color: white;
+
+}
+
+.info p,
+.info h3 {
+    margin: 2px 0;
+}
+
+.more {
+    text-align: left;
+}
+
+.more button {
+    padding: 8px 12px;
+    font-size: 18px;
+    color: #3498b9;
+    background: transparent;
+    border: none;
+    border: 2px solid #3498b9;
+}
+
+.more button:hover {
+    background: #3498b9;
+    color: white;
+}
+
+.buttons div {
+    display: inline-block;
+    width: 120px;
+}

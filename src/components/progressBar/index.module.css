@@ -1,0 +1,99 @@
+/* Green */
+
+.green {
+    border: none;
+    width: 80%;
+    height: 30px;
+    /* background: green; */
+    margin-bottom: 5%;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.green {
+    color: rgb(137, 214, 20);
+}
+
+.green::-webkit-progress-value {
+    background: lightblue;
+}
+
+.green::-moz-progress-bar {
+    background: rgb(137, 214, 20);
+}
+
+.green::-webkit-progress-value {
+    background: rgb(137, 214, 20);
+
+}
+
+.green::-webkit-progress-bar {
+    background: transparent;
+}
+
+/* Yellow  */
+
+.yellow {
+    border: none;
+    width: 80%;
+    height: 30px;
+    /* background: yellow; */
+    margin-bottom: 5%;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.yellow::-webkit-progress-value {
+    background: lightblue;
+}
+
+.yellow::-moz-progress-bar {
+    background: yellow;
+}
+
+.yellow::-webkit-progress-value {
+    background: yellow;
+
+}
+
+.yellow::-webkit-progress-bar {
+    background: transparent;
+}
+
+/* 
+Red */
+
+.red {
+    border: none;
+    width: 80%;
+    height: 30px;
+    /* background: red; */
+    margin-bottom: 5%;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.red::-webkit-progress-value {
+    background: lightblue;
+}
+
+.red::-moz-progress-bar {
+    background: red;
+}
+
+.red::-webkit-progress-value {
+    background: red;
+
+}
+
+.red::-webkit-progress-bar {
+    background: transparent;
+}
