@@ -150,7 +150,6 @@ class BattlePage extends Component {
   }
 
   render() {
-    console.log(this.state);
     let color;
     let colorRandom;
 

@@ -4,7 +4,7 @@ const battleFunc = (hp, attack, defence) => {
     function randomIntFromInterval(min, max) { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
-    let randomNumber = randomIntFromInterval(0, 50)
+    let randomNumber = randomIntFromInterval(0, 200)
 
     let damage = (attack / defence) * randomNumber
 
